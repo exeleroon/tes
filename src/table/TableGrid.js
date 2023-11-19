@@ -2,7 +2,6 @@ import React from 'react';
 import {useQuery} from "react-query";
 import axios from "axios";
 import {useItemsStore} from "../modules/tabsTable/store";
-import {UnControlled as CodeMirror} from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 
